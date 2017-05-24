@@ -1,0 +1,31 @@
+creation_dt: '2014-12-15T14:58:44'
+extent:
+  center_dt: '2014-12-15T14:58:44'
+  coord:
+    ll: {lat: -44.00013888924468, lon: 112.9998611111}
+    lr: {lat: -44.00013888924468, lon: 153.9998611117613}
+    ul: {lat: -10.00013888869628, lon: 112.9998611111}
+    ur: {lat: -10.00013888869628, lon: 153.9998611117613}
+  from_dt: '2014-12-15T14:58:44'
+  to_dt: '2014-12-15T14:58:44'
+format: {name: AIG}
+grid_spatial:
+  projection:
+    geo_ref_points:
+      ll: {x: 112.9998611111, y: -44.00013888924468}
+      lr: {x: 153.9998611117613, y: -44.00013888924468}
+      ul: {x: 112.9998611111, y: -10.00013888869628}
+      ur: {x: 153.9998611117613, y: -10.00013888869628}
+    spatial_reference: GEOGCS["WGS 84",DATUM["WGS_1984",SPHEROID["WGS84",6378137,298.257223563,AUTHORITY["EPSG","7030"]],TOWGS84[0,0,0,0,0,0,0],AUTHORITY["EPSG","6326"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9108"]],AUTHORITY["EPSG","4326"]]
+id: 007f754d-6b3b-4a34-beaf-557c4eff2daa
+image:
+  bands:
+    dem: {layer: elevation, path: /g/data/rr1/Elevation/1secSRTM_DEMs_v1.0/DEM/Mosaic/dem1sv1_0}
+    dem_h: {layer: elevation, path: /g/data/rr1/Elevation/1secSRTM_DEMs_v1.0/DEM-H/Mosaic/demh1sv1_0}
+    dem_s: {layer: elevation, path: /g/data/rr1/Elevation/1secSRTM_DEMs_v1.0/DEM-S/Mosaic/dems1sv1_0}
+instrument: {name: SIR}
+lineage:
+  source_datasets: {}
+platform: {code: Space Shuttle Endeavour}
+processing_level: modelled
+product_type: DEM

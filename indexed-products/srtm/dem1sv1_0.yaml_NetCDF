@@ -1,0 +1,33 @@
+name: srtm_dem1sv1_0
+description: DEM 1sec Version 1.0
+metadata_type: eo
+
+metadata:
+    platform:
+        code: Space Shuttle Endeavour
+    instrument:
+        name: SIR
+    product_type: DEM
+    format:
+        name: NETCDF
+
+storage:
+    crs: EPSG:4326
+    resolution:
+        longitude: 0.000277777777780
+        latitude: -0.000277777777780
+
+measurements:
+      - name: dem
+        dtype: float32
+        nodata: -3.4028235e+38
+        units: 'metre'
+      - name: dem_s
+        dtype: float32
+        nodata: -3.4028235e+38
+        units: 'metre'
+      - name: dem_h
+        dtype: float32
+        nodata: -3.4028235e+38
+        units: 'metre'
+

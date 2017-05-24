@@ -1,0 +1,40 @@
+creation_dt: '2015-10-15T00:00:00'
+extent:
+  center_dt: '2015-10-15T00:00:00'
+  coord:
+    ll: {lat: -43.7615, lon: 112.7175}
+    lr: {lat: -43.7615, lon: 153.6715}
+    ul: {lat: -9.000499999999999, lon: 112.7175}
+    ur: {lat: -9.000499999999999, lon: 153.6715}
+  from_dt: '2015-10-15T00:00:00'
+  to_dt: '2015-10-15T00:00:00'
+format: {name: NETCDF}
+grid_spatial:
+  projection:
+    geo_ref_points:
+      ll: {x: 112.7175, y: -43.7615}
+      lr: {x: 153.6715, y: -43.7615}
+      ul: {x: 112.7175, y: -9.000499999999999}
+      ur: {x: 153.6715, y: -9.000499999999999}
+    spatial_reference: GEOGCS["GEOCENTRIC DATUM of AUSTRALIA",DATUM["GDA94",SPHEROID["GRS80",6378137,298.257222101]],PRIMEM["Greenwich",0],UNIT["degree",0.0174532925199433]]
+id: 77a97dc4-5229-47ea-b7cf-157db9c2ad85
+image:
+  bands:
+    rad_air_dose_rate_filtered: {layer: rad_air_dose_rate, path: /g/data1/rr2/radiometrics/National/radmap_v3_2015_filtered_dose/radmap_v3_2015_filtered_dose.nc}
+    rad_k_equiv_conc_filtered: {layer: rad_k_equiv_conc, path: /g/data1/rr2/radiometrics/National/radmap_v3_2015_filtered_pctk/radmap_v3_2015_filtered_pctk.nc}
+    rad_th_equiv_conc_filtered: {layer: rad_th_equiv_conc, path: /g/data1/rr2/radiometrics/National/radmap_v3_2015_filtered_ppmth/radmap_v3_2015_filtered_ppmth.nc}
+    rad_u_equiv_conc_filtered: {layer: rad_u_equiv_conc, path: /g/data1/rr2/radiometrics/National/radmap_v3_2015_filtered_ppmu/radmap_v3_2015_filtered_ppmu.nc}
+    rad_air_dose_rate_unfiltered: {layer: rad_air_dose_rate, path: /g/data1/rr2/radiometrics/National/radmap_v3_2015_unfiltered_dose/radmap_v3_2015_unfiltered_dose.nc}
+    rad_k_equiv_conc_unfiltered: {layer: rad_k_equiv_conc, path: /g/data1/rr2/radiometrics/National/radmap_v3_2015_unfiltered_pctk/radmap_v3_2015_unfiltered_pctk.nc}
+    rad_th_equiv_conc_unfiltered: {layer: rad_th_equiv_conc, path: /g/data1/rr2/radiometrics/National/radmap_v3_2015_unfiltered_ppmth/radmap_v3_2015_unfiltered_ppmth.nc}
+    rad_u_equiv_conc_unfiltered: {layer: rad_u_equiv_conc, path: /g/data1/rr2/radiometrics/National/radmap_v3_2015_unfiltered_ppmu/radmap_v3_2015_unfiltered_ppmu.nc}
+    rad_ratio_tk: {layer: rad_ratio_tk, path: /g/data1/rr2/radiometrics/National/radmap_v3_2015_ratio_tk/radmap_v3_2015_ratio_tk.nc}
+    rad_ratio_u2t: {layer: rad_ratio_u2t, path: /g/data1/rr2/radiometrics/National/radmap_v3_2015_ratio_u2t/radmap_v3_2015_ratio_u2t.nc}
+    rad_ratio_uk: {layer: rad_ratio_uk, path: /g/data1/rr2/radiometrics/National/radmap_v3_2015_ratio_uk/radmap_v3_2015_ratio_uk.nc}
+    rad_ratio_ut: {layer: rad_ratio_ut, path: /g/data1/rr2/radiometrics/National/radmap_v3_2015_ratio_ut/radmap_v3_2015_ratio_ut.nc}
+instrument: {name: gamma_ray spectrometer}
+lineage:
+  source_datasets: {}
+platform: {code: aircraft}
+processing_level: modelled
+product_type: gamma_ray
